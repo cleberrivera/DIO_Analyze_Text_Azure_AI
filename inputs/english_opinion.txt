@@ -1,0 +1,180 @@
+Opinion:
+
+I am so happy we got this ring. Easy to install and connect to the app on our 
+phones. The picture is clear and the battery life is amazing. 
+I bought it in December and we just charged it for the first time in March. 
+Sometimes it doesn't go off when I know a package was delivered, 
+but that seems to be an internet issue living in a rural area and not 
+the fault of the Ring itself.
+
+Json:
+
+{
+    "documents": [
+        {
+            "id": "id__654",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.74,
+                "neutral": 0.05,
+                "negative": 0.21
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.98,
+                        "neutral": 0.01,
+                        "negative": 0.01
+                    },
+                    "offset": 0,
+                    "length": 32,
+                    "text": "I am so happy we got this ring. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 26,
+                            "length": 4,
+                            "text": "ring",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 8,
+                            "length": 5,
+                            "text": "happy",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 32,
+                    "length": 54,
+                    "text": "Easy to install and connect to the app on our phones. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 86,
+                    "length": 54,
+                    "text": "The picture is clear and the battery life is amazing. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 90,
+                            "length": 7,
+                            "text": "picture",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 115,
+                            "length": 12,
+                            "text": "battery life",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 101,
+                            "length": 5,
+                            "text": "clear",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 131,
+                            "length": 7,
+                            "text": "amazing",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.05,
+                        "neutral": 0.93,
+                        "negative": 0.02
+                    },
+                    "offset": 140,
+                    "length": 76,
+                    "text": "I bought it in December and we just charged it for the first time in March. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.17,
+                        "negative": 0.82
+                    },
+                    "offset": 216,
+                    "length": 164,
+                    "text": "Sometimes it doesn't go off when I know a package was delivered, but that seems to be an internet issue living in a rural area and not the fault of the Ring itself.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
+

@@ -1,0 +1,225 @@
+Opinion:
+
+Comprei o celular saindo de um topo de linha da xiaomi, que começou a travar 
+demais depois de apenas 2 anos de uso. Me surpreendi com a qualidade de 
+construção do iphone, que passa a sensação de estar segurando algo muito bem 
+feito e sólido. Eu gostei muito do tamanho também, que cabe perfeitamente na mão e no bolso. 
+Com relação a bateria, não deixa na mão, mas também não dá aquele conforto de poder ficar 2 dias 
+quase sem carregar. O sistema operacional funciona muito bem, e a câmera também é excelente. 
+Eu recomendo esse celular.
+
+
+Json:
+
+{
+    "documents": [
+        {
+            "id": "id__1767",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.66,
+                "neutral": 0.03,
+                "negative": 0.31
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.11,
+                        "negative": 0.89
+                    },
+                    "offset": 0,
+                    "length": 116,
+                    "text": "Comprei o celular saindo de um topo de linha da xiaomi, que começou a travar demais depois de apenas 2 anos de uso. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 10,
+                            "length": 7,
+                            "text": "celular",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 70,
+                            "length": 6,
+                            "text": "travar",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 116,
+                    "length": 126,
+                    "text": "Me surpreendi com a qualidade de construção do iphone, que passa a sensação de estar segurando algo muito bem feito e sólido. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 242,
+                    "length": 77,
+                    "text": "Eu gostei muito do tamanho também, que cabe perfeitamente na mão e no bolso. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 261,
+                            "length": 7,
+                            "text": "tamanho",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 245,
+                            "length": 6,
+                            "text": "gostei",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0,
+                        "negative": 0.98
+                    },
+                    "offset": 319,
+                    "length": 117,
+                    "text": "Com relação a bateria, não deixa na mão, mas também não dá aquele conforto de poder ficar 2 dias quase sem carregar. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 436,
+                    "length": 73,
+                    "text": "O sistema operacional funciona muito bem, e a câmera também é excelente. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 482,
+                            "length": 6,
+                            "text": "câmera",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 498,
+                            "length": 9,
+                            "text": "excelente",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.92,
+                        "neutral": 0.08,
+                        "negative": 0
+                    },
+                    "offset": 509,
+                    "length": 26,
+                    "text": "Eu recomendo esse celular.",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 527,
+                            "length": 7,
+                            "text": "celular",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/5/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 512,
+                            "length": 9,
+                            "text": "recomendo",
+                            "isNegated": false
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
